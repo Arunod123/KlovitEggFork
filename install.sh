@@ -81,6 +81,8 @@ if [ "$MINECRAFT_VERSION_CODE" -ge "120" ]; then
     sdk install java 21.0.2-tem
 elif [ "$MINECRAFT_VERSION_CODE" -ge "117" ]; then
     sdk install java 17.0.0-tem
+elif [ "$MINECRAFT_VERSION_CODE" -ge "116" ]; then
+    sdk install java 16.0.1-tem
 elif [ "$MINECRAFT_VERSION_CODE" -ge "112" ]; then
     sdk install java 11.0.22-tem
 elif [ "$MINECRAFT_VERSION_CODE" -eq "18" ]; then

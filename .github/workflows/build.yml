@@ -28,4 +28,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/beastgamer81/klovitegg:latest
+            ghcr.io/arunod123/klovitegg:latest
